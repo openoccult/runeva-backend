@@ -1,0 +1,28 @@
+{
+  "name": "runeva-backend",
+  "version": "0.0.0",
+  "description": "Runeva - Your Gateway to Esoteric Mastery. The backend API, routers and functions for Runeva.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openoccult/runeva-backend.git"
+  },
+  "keywords": [],
+  "author": "openoccult",
+  "license": "AGPL-3.0-only",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/openoccult/runeva-backend/issues"
+  },
+  "homepage": "https://github.com/openoccult/runeva-backend#readme",
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "@fastify/jwt": "^9.0.3",
+    "@fastify/static": "^8.0.4",
+    "fastify": "^5.2.1",
+    "pg": "^8.13.1"
+  }
+}
